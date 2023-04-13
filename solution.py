@@ -16,7 +16,7 @@ def solution(x: np.array, y: np.array) -> bool:
     #return res.significance_level
     #return pval
     #if res.significance_level < 0.06:
-    if res.pval < 0.06:
+    if res.pvalue < 0.06:
         return True
     else:
         return False
